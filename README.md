@@ -12,7 +12,7 @@ A simple Real Estate Marketplace API to showcase how to build post and fetch dat
 ## Run in container
 
 - You can run a pre-configured version of the app and the required database with docker-compose. You can read how to install docker-compose [here](https://docs.docker.com/compose/install/)
-- Once docker-compse is installed, you can start the app and database by running `docker-compose up` from the root of this project
+- Once docker-comopse is installed, you can start the app and database by running `docker-compose up` from the root of this project
 - Alternately, you can run the app in detached mode by runninng 'docker-compose up -d' from the root of this project
 - You will not see any output from the containers in detached mode. You can check their logs with `docker-compose logs SERVICE_NAME`
 - You can stop the containers with `docker-compose stop` in the root of this project
