@@ -5,7 +5,7 @@ const PropertyListingSchema = new mongoose.Schema({
   type: { type: String, require: true },
   bedrooms: { type: String, require: true },
   bathrooms: { type: String, require: true },
-  price: { type: Sring, require: true },
+  price: { type: String, require: true },
   city: { type: String, require: true },
   email: { type: String, require: true },
 });
