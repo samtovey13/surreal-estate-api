@@ -16,8 +16,9 @@
     "express": "^4.16.3",
     "express-list-routes": "^0.1.4",
     "express-restify-mongoose": "^4.3.0",
+    "lodash": "^4.17.20",
     "method-override": "^2.3.10",
-    "mongoose": "^5.7.5",
+    "mongoose": "^5.11.15",
     "swagger-ui-express": "^3.0.10"
   },
   "engines": {
