@@ -1,8 +1,8 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const methodOverride = require('method-override');
-const mongoose,
-  { connect, connection } = require("mongoose");
+const mongoose = require("mongoose");
+const { connect, connection } = require("mongoose");
 const restify = require('express-restify-mongoose');
 const app = express();
 const path = require('path');
