@@ -14,9 +14,7 @@ const FavouriteModel = require('./models/favourite');
 const swaggerUi = require('swagger-ui-express');
 const swaggerDocument = require('./swagger.json');
 
-require('dotenv').config({
-  path: path.join(__dirname, './.env'),
-});
+require('dotenv').config();
 
 app.use(cors({ credentials: true, origin: true }));
 app.options('*', cors());
